@@ -1,15 +1,11 @@
 <div class="detailsPopup">
     <div class="deatilsHeadSec">
-        <span class="labHead">About Skils</span>
+        <span class="labHead">Project Details</span>
         <span class="detailsCloseBtn" (click)="closePopup()">
             <img height="20" width="20" src="../../assets/close.png" alt="close">
         </span>
     </div>
-    <div class="messageSection">
-        <span tabindex="0" class="msg1">
-            Technology Information
-        </span>
-    </div>
+    <div class="messageSection"></div>
     <ng-container *ngFor="let about of skillsData?.SKILLS_DETAILS">
         <div class="detailsContent" *ngIf="isFrom == about.TITLE">
             <div class="SubMessageLoop">

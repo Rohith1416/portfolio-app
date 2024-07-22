@@ -11,7 +11,6 @@
 }
 .example-card:hover {
     transform: scale(1.05);
-    cursor: pointer;
 }
 
 .mat-mdc-card {
@@ -40,19 +39,16 @@
     background-size: cover;
 }
 .mdc-button{
-    // background-color: #0080ff !important;
-    // color: #fff !important;
     margin-right: 0 !important;
 }
 .mdc-button:hover{
-    //background-color: #005bea !important;
     box-shadow: 0 5px 10px rgba(33, 33, 33, .49);
-    //color: #fff;
 }
 section{
     text-align: center;
     padding: 10px;
     background: #a17931;
+    cursor: pointer;
 }
 .flip-box {
     background-color: transparent;

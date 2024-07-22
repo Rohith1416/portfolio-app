@@ -29,10 +29,7 @@ span.detailsCloseBtn{
 }
 
 .messageSection{
-    padding: 10px;
-    margin: 0px 10px;
     border-bottom: 1px solid #d2d2d2;
-    font-size: 25px;
     color:#434a54;
 }
 .detailsContent{
@@ -49,14 +46,18 @@ span.detailsCloseBtn{
     padding: 5px;
 }
 .detailsInfo{
-    margin: 7px 0px;
+    margin-top: 20px !important;
+    display: flex;
     width: 100%;
+    clear: left;
+    vertical-align: middle;
+    justify-content: left;
+    align-items: center;
 }
 .detailsKey{
     color: #000;
-    width: 20%;
+    min-width: 25%;
     float: left;
-    text-align: right;
 }
 .detailsValue{
     margin-left: 40px;
