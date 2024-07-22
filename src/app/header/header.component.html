@@ -1,0 +1,10 @@
+<nav class="navBarSection">
+    <div class="portfolios">
+        <ul class="portfoli">
+            <li class="logo">Rohith</li>
+            <li class="menuBarToggle"><img [width]="20" src="../../assets/menu.png"></li>
+            <li class="menuBarLists" [ngClass]="(activeTab == 'home')? 'active': ''" (click)="gotoHome()">Home</li>
+            <li class="menuBarLists" [ngClass]="(activeTab == 'portfolio')? 'active': ''"(click)="gotoPortfolio()">Portfolio</li>
+        </ul>
+    </div>
+</nav>

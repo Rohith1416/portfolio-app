@@ -1,0 +1,110 @@
+.example-card {
+    max-width: 400px;
+    transition: transform 0.6s ease-in;
+}
+.mat-mdc-card-header{
+    text-align: center;
+    display: block;
+    padding: 10px;
+    background: #a17931;
+    color: #fff;
+}
+.example-card:hover {
+    transform: scale(1.05);
+    cursor: pointer;
+}
+
+.mat-mdc-card {
+    height: 300px;
+    width: 300px;
+    margin: 30px;
+    img {
+        height: 150px;
+    }
+}
+.mat-mdc-card-title{
+    font-weight: 600;
+    font-family: system-ui;
+}
+.card-container {
+    //height: calc(100vh - 140px);
+    display: flex;
+    justify-content: space-around;
+    font-weight: 400;
+    background: #f4f6f8;
+    display: inline-flex;
+    flex-flow: row wrap;
+}
+
+.example-header-image {
+    background-size: cover;
+}
+.mdc-button{
+    // background-color: #0080ff !important;
+    // color: #fff !important;
+    margin-right: 0 !important;
+}
+.mdc-button:hover{
+    //background-color: #005bea !important;
+    box-shadow: 0 5px 10px rgba(33, 33, 33, .49);
+    //color: #fff;
+}
+section{
+    text-align: center;
+    padding: 10px;
+    background: #a17931;
+}
+.flip-box {
+    background-color: transparent;
+    width: 300px;
+    height: 245px;
+    border: 1px solid #f1f1f1;
+  }
+  .mat-mdc-raised-button{
+    font-family: cursive;
+    font-size: 12px;
+}
+  /* This container is needed to position the front and back side */
+  .flip-box-inner {
+    position: relative;
+    width: 100%;
+    height: 100%;
+    text-align: center;
+    transition: transform 0.8s;
+    transform-style: preserve-3d;
+  }
+  
+  /* Do an horizontal flip when you move the mouse over the flip box container */
+  .flip-box:hover .flip-box-inner {
+    transform: rotateY(180deg);
+  }
+  
+  /* Position the front and back side */
+  .flip-box-front, .flip-box-back {
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    -webkit-backface-visibility: hidden; /* Safari */
+    backface-visibility: hidden;
+  }
+  
+  /* Style the front side (fallback if image is missing) */
+  .flip-box-front {
+    background-color: beige;
+    color: black;
+    padding: 20px;
+  }
+  
+  /* Style the back side */
+  .flip-box-back {
+    background-color: #0D1B30;
+    color: #efbfc7;
+    transform: rotateY(180deg);
+  }
+  
+  .descriptionSection{
+    padding: 40px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }

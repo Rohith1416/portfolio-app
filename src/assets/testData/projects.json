@@ -1,0 +1,34 @@
+{
+    "PROJECT_DETAILS": [
+        {   
+          "TITLE": "Exterro Review",   
+          "IMAGE": "../../assets/Review.png",                      
+          "DESCRIPTION": "AI-Powered Document Review."
+        },
+        {   
+            "TITLE": "Smart Breach Review",   
+            "IMAGE": "../../assets/SBR.png",                   
+            "DESCRIPTION": "The fastest and most accurate way to find PII in compromised data."
+          },
+          {   
+            "TITLE": "Access Data - FTKC",   
+            "IMAGE": "../../assets/ftkc.jpg",                      
+            "DESCRIPTION": "Collaborative Forensic Review with FTK Central."
+          },
+          {   
+            "TITLE": "Exterro Smart ECA",   
+            "IMAGE": "../../assets/fullshot.jpg",                      
+            "DESCRIPTION": "Responsive data both prior to and post collection by exposing contextual relationships between custodians and content."
+          },
+          {   
+            "TITLE": "In App Updates",   
+            "IMAGE": "../../assets/apps.png",                      
+            "DESCRIPTION": "The release notes for the Exterro Products."
+          },
+          {   
+            "TITLE": "Cost Explorer",   
+            "IMAGE": "../../assets/chart.png",                      
+            "DESCRIPTION": "Data usage overview for the Exterro modules."
+          }
+    ]
+}

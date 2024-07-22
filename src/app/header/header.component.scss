@@ -1,0 +1,67 @@
+.navBarSection {
+    padding: 10px;
+    background: #0D1B30 !important;
+}
+
+.portfoli {
+    margin: 0;
+}
+
+.logo {
+    flex: 1;
+    font-weight: bolder;
+    font-size: 32px;
+    color: #F26B38 !important;
+    font-style: italic;
+    cursor: default !important;
+}
+
+.portfolios ul {
+    display: flex;
+    width: 100%;
+    align-items: center;
+}
+
+.portfolios li {
+    list-style-type: none;
+    padding: 5px;
+    color: #fff;
+}
+
+.portfolios a {
+    text-decoration: none;
+    color: #fff;
+    font-weight: bold;
+    transition: color 0.3s ease-in-out;
+}
+
+.portfolios li:hover {
+    color: #ffa500;
+    cursor: pointer;
+}
+
+.active {
+    color: #ffa500 !important;
+    cursor: pointer;
+    border-top: 1px solid;
+    border-bottom: 1px solid;
+}
+
+.menuBarToggle {
+    display: none;
+}
+
+@media (max-width: 600px) {
+    .portfolios ul {
+        flex-wrap: wrap;
+    }
+
+    .menuBarToggle {
+        display: block;
+    }
+
+    .menuBarLists {
+        width: 100%;
+        text-align: center;
+    }
+}

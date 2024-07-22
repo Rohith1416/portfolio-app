@@ -1,0 +1,40 @@
+{
+    "SKILLS_DETAILS": [   
+          {   
+          "TITLE": "Exterro Review",                    
+          "DESCRIPTION": "Conduct document review in-house, or in conjunction with external outside counsel and service providers, in the industry’s smartest, fastest, and most secure document review solution.",
+          "TECHNLOGIES_USED": "HTML5, CSS, JavaScript, Angular",
+          "PLUGINS_USED": "D3 Charts, Code Mirror, CK Editor, Custom scroll bar"
+         },     
+         {   
+          "TITLE": "Smart Breach Review",                     
+          "DESCRIPTION": "Purpose-built for responding to a data breach, Exterro Smart Breach Review eliminates the manual effort required to associate sensitive data with its subject, as required for reporting to regulators and data subjects.",
+          "TECHNLOGIES_USED": "HTML5, CSS, Bootstrap, JavaScript, Angular, JSON",
+          "PLUGINS_USED": "D3 Charts, Code Mirror, CK Editor, Custom scroll bar"
+         },
+         {   
+          "TITLE": "Access Data - FTKC",                     
+          "DESCRIPTION": "Empower reviewers, examiners, and investigators to work together to find evidence faster and produce results quickly with minimal training.",
+          "TECHNLOGIES_USED": "HTML5, CSS, Bootstrap, JavaScript, Angular, JSON",
+          "PLUGINS_USED": "D3 Charts, Code Mirror, CK Editor, Custom scroll bar"
+         },
+         {   
+          "TITLE": "Exterro Smart ECA",                     
+          "DESCRIPTION": "Smart Early Case Assessment (ECA) allows e-discovery professionals to dive deep into the data related to a given matter prior to collection, getting to the facts of the matter faster.",
+          "TECHNLOGIES_USED": "HTML5, CSS, Bootstrap, JavaScript, Angular, JSON",
+          "PLUGINS_USED": "D3 Charts, Code Mirror, CK Editor, Custom scroll bar"
+         },
+         {   
+            "TITLE": "In App Updates",                     
+            "DESCRIPTION": "The release notes for all the product releases happened in the Exterro module to all the clients.",
+            "TECHNLOGIES_USED": "HTML5, CSS, Handlebars, Jquery, Ajax, JSON",
+            "PLUGINS_USED": "D3 Charts, Code Mirror, CK Editor, Custom scroll bar"
+        },
+        {   
+          "TITLE": "Cost Explorer",                     
+          "DESCRIPTION": "Data Usage overview is used to fetch the details of the price insights of all the tenants in the Exterro module.",
+          "TECHNLOGIES_USED": "HTML5, CSS, Bootstrap, JavaScript, Angular, JSON",
+          "PLUGINS_USED": "D3 Charts, Code Mirror, CK Editor, Custom scroll bar"
+        }
+    ]
+}
